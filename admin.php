@@ -91,7 +91,7 @@ function tryfont_admin_page() {
                 <?php if (!empty($fonts)) : ?>
                     <?php foreach ($fonts as $font) : ?>
                         <tr>
-                            <td><code><?php echo esc_html($font); ?></code></td>
+                            <td><code>[tryfont font="<?php echo esc_html($font); ?>"]</code></td>
                             <td>
                             <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" style="display:inline;">
                                 <input type="hidden" name="action" value="tryfont_delete_font">
