@@ -1,0 +1,25 @@
+.tryfont-container {
+  border: 1px solid #ddd;
+  padding: 0.6em;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.tryfont-container .sample-text {
+  border: 1px solid #ccc;
+  padding: 1em;
+  min-height: 3em;
+  outline: none;
+  background: #f9f9f9;
+}
+
+.tryfont-container .controls label {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 0.9em;
+  user-select: none;
+}
+
+.tryfont-container .controls input[type=range] {
+  vertical-align: middle;
+}
